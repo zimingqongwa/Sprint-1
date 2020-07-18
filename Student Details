@@ -1,0 +1,40 @@
+public class Program
+ {public static void main(String[] args){ 
+     
+         String name,Surname,Contact,learner Number, Address;         
+ 
+ Scanner input = new Scanner(System.in);
+      
+       System.out.println("Enter your name: "); 
+        name = input.nextLine();     
+ 
+System.out.println();
+  
+   System.out.println("Enter your surname")
+    surname = input.nextLine();
+   
+System.out.println();
+
+   System.out.println("Enter your Contact details")
+    Contact = input.nextLine();
+
+System.out.println();
+
+   System.out.println("Enter your Learner Number")
+    learner Number = input.nextLine();
+    
+System.out.println();
+ 
+   System.out.println("Enter your Address: ");
+     Address = input.nextLine();     
+
+System.out.println();         
+ 
+ 
+System.out.println("Your name is: " + name);
+System.out.println("Your surname is: " + surname)
+System.out.println("Cellphone: " + Contact)
+System.out.println("Learner number is: " + learner Number)
+System.out.println("Your Address is:" +Address);
+     } 
+}
